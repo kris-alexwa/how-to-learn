@@ -13,6 +13,13 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: flex-start;
   /* выше установили ограничения для секции */
 }
 
@@ -21,6 +28,52 @@
   height: 568px;
   width: 568px;
 }
+
+.logo_place_header {
+  top: 30px;
+  left: 64px;
+  width: 183px;
+  height: 32px;
+  position: absolute;
+}
+
+.header__title {
+  font-size: 102px;
+  font-weight: bold;
+  line-height: 96px;
+  width: 730px;
+  margin-left: 64px;
+}
+
+
+.header__subtitle {
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  left: 64px;
+  bottom: 30px;
+  position: absolute;
+}
+
+.header__main-illustration {
+ width: 765px;
+ height: 608px;
+ position: absolute;
+ right: 0;
+ bottom: 0;
+ z-index: 1;
+}
+
+.header__square-pic {
+  background-color: #2f80ed;
+  width: 568px;
+  height: 568px;
+  top: 64px;
+  right: 0;
+  position: absolute;
+}
+
 
 .two-columns {
   display: flex;
@@ -34,16 +87,13 @@
   width: 175px;
 }
 
-h1 {
+.two-columns__title {
   font-size: 16px;
   color: #2f80ed;
   font-weight: lighter;
   margin: 0;
 }
 
-.two-columns__paragraph {
-
-}
 
 .two-columns__paragraph__with-margin {
   margin-bottom: 30px;
@@ -65,4 +115,63 @@ h1 {
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.digits {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.digits__section-title {
+  display: flex;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 100px;
+  width: 60%;
+}
+
+.digits__section-subtitle {
+  display: flex;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+ justify-content: center;
+ width: 60%;
+ margin-bottom: 0;
+}
+
+.digits__table {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1100px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.digits__table__cell {
+  width: 250px;
+  margin-top: 60px;
 }
