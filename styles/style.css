@@ -55,7 +55,7 @@
   position: absolute;
 }
 
-.header__subtitle__link {
+.header__link {
 color: #2f80ed;
 text-decoration: none;
 position: absolute;
@@ -106,6 +106,10 @@ padding-left: 8px;
   margin-bottom: 30px;
 }
 
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
 .description {
   display: flex;
   justify-content: center;
@@ -116,14 +120,6 @@ padding-left: 8px;
   min-width: 784px;
 }
 
-/* и элемента с модификатором вида ключ-значение */
-.table__cell_theme_dark {
-  width: 200px;
-  color: white;
-  margin-right: 0;
-  margin-top: 80px;
-}
-
 .digits {
   display: flex;
   flex-direction: column;
@@ -131,7 +127,7 @@ padding-left: 8px;
   align-items: center;
 }
 
-.digits__section-title {
+.section-title {
   display: flex;
   line-height: 1.15;
   font-size: 60px;
@@ -142,7 +138,7 @@ padding-left: 8px;
   width: 60%;
 }
 
-.digits__section-subtitle {
+.section-subtitle {
   display: flex;
   line-height: 34px;
   font-size: 24px;
@@ -152,7 +148,7 @@ padding-left: 8px;
  margin-bottom: 0;
 }
 
-.digits__table {
+.table {
   display: flex;
   margin-left: auto;
   margin-right: auto;
@@ -177,7 +173,7 @@ padding-left: 8px;
   margin-bottom: 0;
 }
 
-.digits__table__cell {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
@@ -189,7 +185,7 @@ padding-left: 8px;
   background-color: #f2f2f2;
   flex-direction: column;
   position: relative;
-  height: 790px;
+  height: 890px;
 }
 
 
@@ -236,4 +232,157 @@ padding-left: 8px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+}
+
+.kaufman {
+  display: flex;
+  background-color:  #1f1f1f;
+  height: 790px;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.section-title__theme_dark {
+  display: flex;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  width: 60%;
+  justify-content: center;
+  margin-top: 90px;
+  margin-bottom: 0;
+}
+
+.section-subtitle__theme_dark {
+  display: flex;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  color: #ffffff;
+  width: 60%;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.table__theme_dark {
+  display: flex;
+  color: white;
+  width: 1100px;
+  margin-bottom: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.table__cell__theme_dark {
+  width: 200px;
+  color: white;
+  margin-top: 80px;
+}
+
+.table__heading__theme_dark {
+  display: flex;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.table__text__theme_dark {
+  display: flex;
+  width: 200px;
+  margin: 0;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  width: 877px;
+  height: 877px;
+  top: 0;
+  right: -210px;
+}
+
+.footer {
+  display: flex;
+  min-height: 350px;
+  background-color:  #1f1f1f;
+  justify-content: center;
+}
+.footer__columns {
+  display: flex;
+  width: 90%;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.footer__column__content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.logo__place_footer {
+  display: flex;
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  display: flex;
+  color: white;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+
+.footer__column__content {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.footer__column__content_info {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__column-links {
+  list-style: none;
+  padding: 0;
+}
+
+
+.footer__column-heading {
+  color: white;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__column-link-item {
+  display: flex;
+  color: white;
+  text-decoration: none;
+  margin: 16px;
+  margin-left: 0;
+}
+
+.footer__social-icon {
+color: white;
+margin-right: 10px;
+width: 16px;
+height: 16px;
 }
