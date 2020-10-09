@@ -23,7 +23,7 @@
   /* выше установили ограничения для секции */
 }
 
-.logo_place_header {
+.logo__place_header {
   top: 30px;
   left: 64px;
   width: 183px;
@@ -47,6 +47,7 @@
   left: 64px;
   bottom: 30px;
   position: absolute;
+  margin: 0;
 }
 
 .header__link {
@@ -86,18 +87,20 @@ padding-left: 8px;
 }
 
 .two-columns__brief {
-  width: 175px;
-}
-
-.two-columns__title {
   font-size: 16px;
   color: #2f80ed;
   font-weight: lighter;
   margin: 0;
+  width: 175px;
 }
 
-.two-columns__paragraph__with-margin {
-  margin-bottom: 30px;
+.two-columns__paragraph:not(:last-child) {
+ margin-bottom: 30px;
+ margin-top: 0;
+}
+
+.two-columns__paragraph:last-child {
+  margin: 0;
 }
 
 .two-columns__span-accent {
@@ -139,7 +142,7 @@ padding-left: 8px;
   font-weight: normal;
  justify-content: center;
  width: 60%;
- margin-bottom: 0;
+ margin: 0;
 }
 
 .table {
@@ -182,20 +185,16 @@ padding-left: 8px;
   height: 890px;
 }
 
-
 .feynman__title {
   display: flex;
   width: 648px;
   z-index: 1;
   margin-top: 100px;
-}
-
-.feynman__title-text {
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin: auto;
   text-align: center;
+  margin-bottom: 0;
 }
 
 .feynman__subtitle {
@@ -208,7 +207,7 @@ padding-left: 8px;
 }
 
 
-.logo_place_feynman {
+.logo__place_feynman {
   left: 0;
   bottom: 0;
   width: 867px;
