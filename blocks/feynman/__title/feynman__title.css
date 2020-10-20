@@ -3,10 +3,10 @@
     width: 648px;
     justify-content: center;
     text-align: center;
-    margin-top: 100px;
+    margin-top: 0;
     margin-bottom: 0;
     line-height: 1.15;
     font-size: 120px;
     font-weight: bold;
     z-index: 1;
-  }
+}
