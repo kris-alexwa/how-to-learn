@@ -1,10 +1,10 @@
 .cards__image {
-box-sizing: border-box;
-border-radius: 100%;
-margin-top: 60px;
-margin-bottom: 43px;
-height: 160px;
-width: 160px;
-margin-left: 40px;
-margin-right: 40px;
+    box-sizing: border-box;
+    border-radius: 100%;
+    margin-top: 60px;
+    margin-bottom: 43px;
+    height: 160px;
+    width: 160px;
+    margin-left: 40px;
+    margin-right: 40px;
 }
